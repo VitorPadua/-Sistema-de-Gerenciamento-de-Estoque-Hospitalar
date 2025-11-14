@@ -41,12 +41,12 @@ class SistemaEstoque {
     public void consultarProduto(int id) {
         for (Produto p : produtos) {
             if (p.getId() == id) {
-                System.out.println("🔎 Produto encontrado:");
+                System.out.println(" Produto encontrado:");
                 System.out.println(p);
                 return;
             }
         }
-        System.out.println("❌ Produto não encontrado.\n");
+        System.out.println(" Produto não encontrado.\n");
     }
 }
 
